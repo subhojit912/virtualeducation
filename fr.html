@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT</title>
+    <style>
+        .main{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<form action="">
+<body class="main">
+    <h1>ENTER DETAILS</h1>
+    <hr>
+    <h2><i>Personal details</i></h2>
+    <p> <b> FIRSTNAME: <input type="text" name="Fname" id="Fname"> </b></p>
+    <p><b> LASTNAME: <input type="text" name="Lname" id="Lname"></b></p>
+    <fieldset>
+            <legend>GENDER</legend>
+            <p>
+                MALE <input type="radio" name="GENDER" id="male">
+                FEMALE <input type="radio" name="GENDER" id="female">
+                OTHERS <input type="radio" name="GENDER" id="others">
+            </p>
+    </fieldset>
+    <p><b>PINCODE: <input type="number" name="pin" id="pin"></b></p>
+   <p><b>ADRESS:<textarea name="adress" id="adress" cols="120" rows="5"></textarea> </b> 
+  </p>
+   <p>email: <input type="email" name="email" id="email"> </p>
+   <p><b>NUMBER: <input type="number" name="number" id="number"></b></p>
+   <h2><I>ADD PAYMENT </I></h2> 
+       <p>card type:
+          <select name="card_type" id="card_type">
+              <option value="">--select a card type--</option>
+              <option value="MASTERCARD">MASTERCARD</option>
+              <option value="RUPAY">RUPAY</option>
+              <option value="VISA">VISA</option>
+          </select>     
+       </p>
+       <p>CARD NUMBER: <input type="number" name="cardno." id="cardno."> </p>
+       <p><b>EXPIRATION DATE: <input type="date" name="exdate" id="exdate"> </b></p>
+       <p><b>CVV: <input type="number" name="cvv" id="cvv"></b></p>
+       <input type="submit" value="paynow">
+</form>
+</body>
+</html>
